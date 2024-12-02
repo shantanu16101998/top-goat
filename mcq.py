@@ -20,7 +20,7 @@ def generate_and_ask_mcq_question(question_words,answer_words,question_answer_ma
     # random.shuffle(options)
     
     # Ask the user for the translation of the German word
-    print(f"What is the translation of '{question_word}'?\n")
+    print(f"\033[33m What is the translation of '{question_word}'?\n\033[0m")
     
     # Show the options
     for i, option in enumerate(options, 1):
